@@ -1,0 +1,25 @@
+{
+  "name": "linear-task-creator",
+  "version": "1.0.0",
+  "description": "Claude Code skill: turn abstract inputs (text, images, conversations) into structured Linear issues via MCP. Output language is configurable.",
+  "bin": {
+    "linear-task-creator": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude",
+    "skill",
+    "linear",
+    "mcp"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
